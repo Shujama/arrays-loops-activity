@@ -6,15 +6,20 @@
  * 3. After the loop, log out the total number of
  *    hobbies
  */
-
-
+  let Hobbies = ['swimming', 'board games', 'painting'];
+  console.log(Hobbies);
+  for (let index = 0; index < Hobbies.length; index++) {
+     console.log(Hobbies[index]); 
+  }
+  console.log('Total Hobbies:', Hobbies.length);
+  
 // Example output
 // 1. swimming
 // 2. board games
 // 3. painting
 // Total hobbies: 3
 
-/**
+/*
  * #2 Colors
  * ---------
  * 1. Create an array of colors as strings
@@ -25,6 +30,18 @@
  * 4. Output the array and number of times teal was found
  */
 
+let colors = ['red', 'teal', 'blue', 'teal', 'green'];
+
+for (let index = 0; index < colors.length; index++) {
+     console.log(colors[index]); 
+}
+
+// finding how many times teal is stated
+let tealCount=0;
+if (colors==='teal') { 
+    tealCount++
+ } 
+ console.log('Teal count:',tealCount);
 
 // Example output
 // green, red, teal, orange, teal
