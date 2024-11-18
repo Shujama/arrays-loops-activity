@@ -36,6 +36,7 @@ for (let index = 0; index < colors.length; index++) {
      console.log(colors[index]); 
 }
 
+
 // finding how many times teal is stated
 let tealCount=0;
 if (colors==='teal') { 
@@ -57,6 +58,19 @@ if (colors==='teal') {
  *    array and even numbers in the evenNumbers array.
  * 4. Output the original array, odd number array and even number array
  */
+ let numbers = [3, 7, 2, 8, 11, 4, 2];
+let oddNumbers = [];
+let evenNumbers = [];
+
+for (let index = 0; index < numbers.length; index++) {
+     if (numbers[index]%2===0) {
+          evenNumbers.push(numbers[index]);
+     } else {
+          oddNumbers.push(numbers[index]);
+     } }
+     console.log('Original Array;', numbers);
+     console.log('Odd number array:', oddNumbers);
+     console.log('Even number array', evenNumbers);  
 
 
 // Example output
